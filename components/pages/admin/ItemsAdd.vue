@@ -59,6 +59,7 @@
 </template>
 
 <script setup>
+//this commit is to be cherrypicked
 import { useProduct } from '~/composables/products';
 import { useAuthentication } from '~/api/auth';
 const {items, addItems, viewItems, editItems, deleteItems} = useProduct();
