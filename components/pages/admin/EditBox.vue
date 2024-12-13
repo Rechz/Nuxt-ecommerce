@@ -22,8 +22,7 @@
 </template>
 
 <script setup>
-//this is a sample commit
-//this commit is not to be cherry picked
+
 const emits = defineEmits(['edit','cancel'])
 const props = defineProps({
     items: Object
