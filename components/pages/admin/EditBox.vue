@@ -1,4 +1,5 @@
 <template>
+    <div>Hello this is a test merge</div>
     <div class="dialog-box">
         <label for="productName">Product name:</label>
         <input type="text" id="productName" v-model="items.prodName">
@@ -22,6 +23,7 @@
 
 <script setup>
 //this is a sample commit
+//this commit is not to be cherry picked
 const emits = defineEmits(['edit','cancel'])
 const props = defineProps({
     items: Object
